@@ -5,6 +5,7 @@ Saya Daffa Faiz Restu Oktavian dengan NIM 2309013 mengerjakan Tugas Praktikum 2 
 ![image](https://github.com/user-attachments/assets/9ea64a3a-88c7-4b54-8cc3-336c62df6f80)
 # Desain Program
 Program Petshop Management terdiri dari tiga file utama. Petshop.php berisi kelas utama yang menyimpan informasi dasar produk seperti ID, nama, harga, stok, dan foto, serta menyediakan getter dan setter untuk mengakses dan memperbarui data. Aksesoris.php adalah turunan dari Petshop yang menambahkan atribut jenis, bahan, dan warna untuk menyimpan informasi aksesoris hewan. Baju.php merupakan turunan dari Aksesoris, yang lebih spesifik untuk pakaian hewan dengan tambahan atribut spesies, ukuran, dan merk.  
+
 Fitur utama program mencakup Tambah Data, di mana pengguna dapat menginput produk baru melalui formulir, dan data yang dimasukkan—termasuk gambar—akan disimpan dalam array bernama produkList. Tampilkan Data memungkinkan pengguna melihat daftar produk dalam tabel dengan gambar yang telah diunggah. Selain itu, terdapat fitur Keluar, yang memungkinkan pengguna mengosongkan array produkList agar dapat memulai kembali dari awal.
 # Petshop
 Class Petshop merupakan kelas dasar yang memiliki atribut utama sebagai berikut:  
